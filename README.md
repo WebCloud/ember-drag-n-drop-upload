@@ -1,6 +1,7 @@
-# Ember-drag-n-drop-upload
+# Ember Drag & Drop file upload
 
-This README outlines the details of collaborating on this Ember addon.
+More info at
+http://webcloud.info/blog/2015/03/09/ember-drag-drop-file-upload-the-rightish-way/
 
 ## Installation
 

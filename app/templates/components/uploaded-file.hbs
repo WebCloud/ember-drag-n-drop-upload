@@ -1,0 +1,12 @@
+{{#if file.isNew}}
+  {{#if isUploading}}
+    <div class="progress">
+      <div class="bar" {{bind-attr style=progress}}></div>
+    </div>
+  {{else}}
+    <span>loading...</span>
+  {{/if}}
+{{else}}
+  <img class="asset-image" {{bind-attr src=file.imageUrl}}/>
+  <span>{{file.fileName}}</span>
+{{/if}}
