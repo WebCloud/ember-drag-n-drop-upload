@@ -1,6 +1,6 @@
 {
   "name": "ember-drag-n-drop-upload",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ember Drag and Drop file upload support",
   "directories": {
     "doc": "doc",
