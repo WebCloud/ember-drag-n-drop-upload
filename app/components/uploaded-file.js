@@ -5,7 +5,8 @@ export default Ember.Component.extend({
   classNames: 'asset'.w(),
   file: {},
   progress: function(){
-    return 'width:'+(this.get('file.progress')*100)+'%';
+    var progress = 'width:'+(this.get('file.progress')*100)+'%';
+    return progress.htmlSafe();
   }.property('file.progress'),
   isUploading: function(){
     return this.get('file.progress') !== 1;
