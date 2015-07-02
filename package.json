@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/WebCloud/ember-drag-n-drop-upload.git",
   "engines": {
     "node": ">= 0.10.0"
   },
